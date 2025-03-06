@@ -1,0 +1,66 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+    color: #343a40;
+}
+
+p {
+    color: #6c757d;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    background: #007bff;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    padding: 1rem 0;
+    transition: all 0.3s ease;
+}
+
+.navbar.scrolled {
+    background: rgba(0,0,0,0.95) !important;
+    padding: 0.5rem 0;
+}
+
+/* Seções */
+section {
+    padding: 100px 0;
+}
+
+.section {
+    padding: 20px;
+    margin: 20px 0;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #343a40;
+    color: #ffffff;
+}
