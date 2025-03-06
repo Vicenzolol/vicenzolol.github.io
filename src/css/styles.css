@@ -58,6 +58,40 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Skills Section */
+#skills .card {
+    border: none;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+#skills .card:hover {
+    transform: translateY(-5px);
+}
+
+#skills .card-title {
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#skills .fas {
+    margin-right: 8px;
+}
+
+#skills ul li {
+    margin-bottom: 8px;
+}
+
+#skills .text-success {
+    color: #28a745;
+}
+
+#skills .text-primary {
+    color: #007bff;
+}
+
 .footer {
     text-align: center;
     padding: 10px 0;
